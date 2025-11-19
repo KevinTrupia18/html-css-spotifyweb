@@ -1,0 +1,135 @@
+
+/*reset*/
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+/*utilities*/
+
+body{
+    font-family: "Montserrat", sans-serif;
+    font-size: 12px;
+    font-weight: 700;
+    color: rgb(95, 95, 95);
+}
+
+
+.nobold{
+    font-weight: 300;
+
+}
+
+
+.container{
+    height: calc(100vh - 100px);
+    display: flex;
+}
+
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+
+li{
+    list-style: none;
+}
+
+
+
+/*Main Section*/
+
+/*Header*/
+
+.upgrade{
+    position: sticky;
+    top: 0;
+    height: 100px;
+    background-color: blue;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+    padding: 20px;
+    width: 100%;
+}
+
+
+a.btn{
+    border: 1px solid white;
+    padding: 10px 30px;
+    border-radius: 20px;
+    background-color: rgb(41, 87, 128);
+
+}
+
+
+
+/* Aside*/
+
+.aside{
+    background-color: black;
+    height: 100%;
+    width: 250px;
+}
+
+
+.aside i{
+    font-size: 25px;
+}
+
+
+.container-logo{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    padding: 0 10px;
+
+}
+
+
+.container-logo img{
+    height: 40%;
+}
+
+
+.showup{
+    display: none;
+}
+
+
+.aside-wrapper{
+    height: calc(100% - 100px);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+
+
+.list-aside{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+
+.menu-playlist{
+    padding-top: 30px;
+}
+
+
+.menu-playlist li:first-child{
+    font-size: 16px;
+}
+
+
+.menu-playlist h3{
+    font-size: 16px;
+    padding-bottom: 10px;
+}
