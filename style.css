@@ -55,7 +55,7 @@ li{
     position: sticky;
     top: 0;
     height: 100px;
-    background-color: blue;
+     background-color: hsl(222deg 38.46% 5.1%);
     display: flex;
     align-items: center;
     justify-content: end;
@@ -206,7 +206,7 @@ a.btn{
 
 
 .main-section{
-    background-color:  hsl(219 26% 11% / 1);
+     background-color:  hsl(219 26% 11% / 1);
     overflow-y: scroll;
     flex-basis: calc(100% - 250px);
 }
@@ -329,3 +329,119 @@ i.icon-card{
 .container-card-img:hover img{
     filter: brightness(50%);
 } 
+
+
+/*Footer*/
+
+footer i{
+    font-size: 20px;
+}
+
+.wrapper-player{
+    background-color: hsl(0deg 0% 15.69%);;
+    height: 100px;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.wrapper-song{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-shrink: 1;
+}
+
+.song-info{
+    height: 100%;
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.song-info img{
+    max-width: 20%;
+}
+
+.favorites i{
+    margin: 5px 0;
+}
+
+.player{
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    gap: 20px; 
+    flex-shrink: 1;
+}
+
+.false-player{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.border-player{
+    width: 50%;
+    height: 3px;
+    background-color: gray;
+    position: relative;
+    display: flex;
+    align-items: center;
+}
+
+.border-player-time{
+    width: 20%;
+    height: 3px;
+    background: white;
+    position: absolute;
+    left: 0;
+}
+
+.control-media{
+    height: 15px;
+    width: 15px;
+    background-color: white;
+    border-radius: 50%;
+    position: absolute;
+    left: 20%;
+    display: none;
+}
+
+
+.false-player:hover .border-player-time{
+    background-color: greenyellow;
+}
+
+.false-player:hover .control-media{
+    display: block;
+}
+
+
+
+
+
+
+.media-volume{
+    width: 30%;
+    display: flex;   
+    justify-content: start;
+    
+}
+
+.media-player .false-player .border-player{
+    min-width: 50px;
+}
+
+.media-volume-icons{
+    display: flex;
+    gap: 10px;
+}
